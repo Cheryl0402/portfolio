@@ -1,0 +1,130 @@
+*{
+	background-color: #FEC62E;
+}
+
+body{
+	position: absolute;
+	width: 1300px;
+	height: 680px;
+	left: 0px;
+	top: 0px;
+}
+
+.nav_bar{
+	position: absolute;
+	float:right;
+	display: inline-block;
+	width: 349px;
+	height: 16px;
+	left: 927px;
+	top: 46px;
+}
+
+.nar_bar_p{
+	display: inline-block;
+	color:white;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	text-decoration-line: underline;
+	padding:0 20px;
+
+}
+
+
+/*h1{	
+	color:#008C7E;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}*/
+
+.main_content{
+	/*position: absolute;*/
+	width: 776px;
+	height: 390.63px;
+	/*left: 267px;
+	top: 122px;*/
+	display: block;
+	margin: 122px 267px;
+}
+
+.main_content img{
+	/*position: absolute;*/
+	float:left;
+	width: 310px;
+	height: 386px;
+	padding-right:30px;
+}
+
+.main_content #name{
+	position: absolute;
+	width: 304px;
+	height: 46px;
+	left: 629px;
+	/*top: 168px;*/
+
+	font-family: Siemreap;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 66px;
+	color: #0E81C1;
+}
+
+.main_content #title{
+	position: absolute;
+	width: 372px;
+	height: 46px;
+	left: 631px;
+	top: 222px;
+	font-size: 18px;
+	line-height: 33px;
+	color: #6C9DF4;
+}
+
+.main_content #summary{
+	position: absolute;
+	width: 412px;
+	height: 132px;
+	left: 631px;
+	top: 267px;
+
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+}
+
+.main_content .icons{	
+	/*margin-top:297px;
+	margin-left:23px;*/
+}
+
+.main_content #github{
+	margin-top:297px;
+	margin-left:23px;
+	height: 22.5px;
+	width:22.5px;
+	
+}
+
+.main_content #leetcode{
+	margin-top:297px;
+	margin-left:23px;
+	height: 26px;
+	width:25px;
+}
+
+.main_content #linkedin{
+	margin-top:297px;
+	margin-left:23px;
+	height: 30px;
+	width:30px;
+}

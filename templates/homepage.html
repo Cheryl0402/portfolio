@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage for Portfolio</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/3135/3135689.svg">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/homepage.css') }}">
+    <link rel="stylesheet" type="text/css" href="../static/homepage.css">
+    <!-- the double curly brackets will still be read even if when you comment it out. so remember to delete them if you are going to comment -->
+</head>
+<body>
+
+	<!-- <h1>Welcome to Cheryl's Homepage!</h1> -->
+	<div class="nav_bar">
+		<p id="resume" class="nar_bar_p">Resume</p>
+		<p id="projects" class="nar_bar_p">Projects</p>
+		<p id="contact" class="nar_bar_p">Contact Me</p>
+	</div>
+
+	<div class="main_content">
+		<img src="pic_copy.jpg">
+		<div>
+			<p id="name">Yi Chen</p>
+			<p id="title">Full-Stack Web Developer</p>
+			<p id="summary">I am Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Tempor eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+
+		<div class="icons">
+			<img id="github" src="github.png">
+			<img id="leetcode" src="leetcode.png">
+			<img id="linkedin" src="linkedin.png">
+
+
+		</div>
+	</div>
+    
+</body>
+</html>
