@@ -6,7 +6,8 @@
     <title>Homepage for Portfolio</title>
     <link rel="icon" href="https://image.flaticon.com/icons/svg/3135/3135689.svg">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/homepage.css') }}">
-    <link rel="stylesheet" type="text/css" href="../static/homepage.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="../static/homepage.css"> -->
     <!-- the double curly brackets will still be read even if when you comment it out. so remember to delete them if you are going to comment -->
 </head>
 <body>
@@ -19,7 +20,7 @@
 	</div>
 
 	<div class="main_content">
-		<img src="pic_copy.jpg">
+		<img src="{{ url_for('static', filename='pic_copy.jpg') }}">
 		<div>
 			<p id="name">Yi Chen</p>
 			<p id="title">Full-Stack Web Developer</p>
@@ -27,12 +28,18 @@
 		</div>
 
 		<div class="icons">
-			<img id="github" src="github.png">
-			<img id="leetcode" src="leetcode.png">
-			<img id="linkedin" src="linkedin.png">
-
-
+			<img id="github" src="{{ url_for('static', filename='github.png') }}">
+			<img id="leetcode" src="{{ url_for('static', filename='leetcode.png') }}">
+			<img id="linkedin" src="{{ url_for('static', filename='linkedin.png') }}">
 		</div>
+	</div>
+
+	<div class="hr">
+	    <p>You can divide with any text you like.</p>
+	    <hr class="hr-text" data-content="AND">
+	    <p>...this...</p>
+	    <hr class="hr-text" data-content="OR">
+	    <p>...even this!</p>
 	</div>
     
 </body>
